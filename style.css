@@ -285,3 +285,10 @@ width: 5rem;
   background: #ffa700;
 
 }
+/* task */
+.aboutme .aboutme__wrapper{
+  display: grid;
+  grid-template-columns: ;
+  align-items: center;
+  gap: 5rem;
+}
