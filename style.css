@@ -276,19 +276,89 @@ width: 5rem;
   }
 
 }
+/* section 3 */
+.aboutme .aboutme__text h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  color:#ffa700;
+  line-height: 5rem;
 
+}
+
+.aboutme .aboutme__text p{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  text-align: justify;
+}
+
+.aboutme {
+  padding-top:10rem;
+  padding-bottom: 15rem;
+}
+
+.aboutme .aboutme__wrapper{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.aboutme .aboutme__text {
+  font-size: 2rem;
+  text-align: center;
+  padding-right: 5rem;
+}
+/* srvc */
+.srvc {
+  background:#2b2b2b;
+  padding: 5rem 0;
+}
+.srvc .srvc__wrapper{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:8rem;
+
+}
+
+.srvc .srvc__card{
+  text-align: center;
+}
+
+.srvc .srvc__card i{
+  color: #ffa700;
+  font-size: 5rem;
+
+}
+.srvc .srvc__card h4{
+  color:#ffa700;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 2rem 0;
+}
+
+.srvc .srvc__card p{
+  color:#ffffff;
+  margin-bottom: 5rem;
+  text-align: justify;
+
+}
+@media screen and (max-width:500px) {
+  .srvc .srvc__wrapper {
+    display:grid;
+    grid-template-columns: 1fr;
+    margin: 0 2rem;
+    gap: 15rem;
+    
+  }
+}
 /* REPEATABLE PATTERN */
+.btn{
+  display: inline-block;
+  padding:1.5rem 2rem;
+  border-radius: 5rem;
+  color:#ffffff;
+}
 .btn:hover {
   scale: 1.1;
 }
 .btn.bg--primary{
-  background: #ffa700;
-
-}
-/* task */
-.aboutme .aboutme__wrapper{
-  display: grid;
-  grid-template-columns: ;
-  align-items: center;
-  gap: 5rem;
+  background:#ffa700;
 }
